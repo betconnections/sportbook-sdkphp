@@ -1,0 +1,35 @@
+{
+    "name": "sportbook/sdk",
+    "description": "SportBook SDK PHP - Integration function",
+    "keywords": [
+        "dotworkers",
+        "laravel",
+        "sportbook",
+        "parlay",
+        "api",
+        "sdk",
+        "php"
+    ],
+    "license": "MIT",
+    "homepage": "https://dotworkers.com",
+    "support": {
+        "issues": "https://github.com/dotworkers/sportbook-sdkphp/issues",
+        "source": "https://github.com/dotworkers/sportbook-sdkphp"
+    },
+    "authors": [
+        {
+            "name": "Luis Suárez",
+            "email": "luissuarezdev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "facebook/graph-sdk": "^5.4",
+        "abraham/twitteroauth": "^0.7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SportBook\\SDK\\": "src/"
+        }
+    }
+}
